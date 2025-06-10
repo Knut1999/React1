@@ -1,5 +1,3 @@
-// Tvinger Vercel til å registrere endring
-
 import { Link } from "react-router-dom";
 import "../css/NavBar.css"
 
