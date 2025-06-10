@@ -1,5 +1,7 @@
+// Tvinger Vercel til å registrere endring
+
 import { Link } from "react-router-dom";
-import "../css/Navbar.css"
+import "../css/NavBar.css"
 
 function NavBar() {
     return <nav className = 'navbar'>
