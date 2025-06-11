@@ -1,6 +1,4 @@
-
 import "../css/ProjectCard.css"
-
 function ProsjektCard({prosjekt}) {
 
     function onAbouteClick() {
@@ -10,9 +8,6 @@ function ProsjektCard({prosjekt}) {
         <div className="project-poster">
             <img src={prosjekt.img} alt={prosjekt.title} />
             <div className="project-overlay">               
-                <button className="aboute-btn" onClick={onAbouteClick}>
-                    ❤︎
-                </button>
             </div>
         </div>
         <div className="project-info">
