@@ -46,5 +46,10 @@
 }
 
 .bilde-rad::-webkit-scrollbar {
-  display: none; /* skjuler scroll-linje */
+  height: 8px;
+}
+
+.bilde-rad::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
 }
