@@ -1,63 +1,50 @@
-.home {
-  padding: 2rem 0;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.search-form {
+.streetView {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin: 2rem auto;
   max-width: 600px;
-  margin: 0 auto 2rem;
+}
+
+.streetView h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #412ca1;
+}
+
+.streetView p {
+  color: #999;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.bilde-rad {
   display: flex;
-  gap: 1rem;
-  padding: 0 1rem;
-  box-sizing: border-box;
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.search-input {
-  flex: 1;
-  padding: 0.75rem 1rem;
-  border: none;
-  border-radius: 4px;
-  background-color: #333;
-  color: white;
-  font-size: 1rem;
+.bilde-rad a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
 }
 
-.search-input:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #666;
+.bilde-rad a {
+  display: flex;
+  gap: 0.7rem;
+  flex-direction: column; /* gjør at tekst havner under bildet */
+  align-items: center;
 }
 
-.search-button {
-  padding: 0.75rem 1.5rem;
-  background-color: #e50914;
-  color: white;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: background-color 0.2s;
-  white-space: nowrap;
+.bilde-rad img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
-.search-button:hover {
-  background-color: #f40612;
-}
-
-
-@media (max-width: 639px) {
-  .home {
-    padding: 1rem 0;
-  }
-
-  .search-form {
-    margin-bottom: 1rem;
-  }
-}
-
-.prosjekter-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  width: 100%;
-  box-sizing: border-box;
+.bilde-rad::-webkit-scrollbar {
+  display: none; /* skjuler scroll-linje */
 }
