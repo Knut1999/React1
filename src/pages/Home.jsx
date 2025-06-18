@@ -5,8 +5,7 @@ import img1 from '../images/360.png'
 import img2 from '../images/work.png'
 import img3 from '../images/games.png'
 import img4 from '../images/plugin.png'
-import Games from '../pages/Games'
-import streetview from '../pages/streetview'
+
 
 // for å kunne linke cards til siden
 import { Link } from 'react-router-dom';

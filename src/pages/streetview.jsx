@@ -15,22 +15,24 @@ function Streetview() {
             </p>
 
             <div className="bilde-rad">
-                <a href="https://25028.vercel.app/">
-                    <img src={bilde1} alt="bilde 1" />
-                    <p>UiO - BL18</p>
-                </a>
-                <a href="https://marzipano-psi.vercel.app/">
-                    <img src={bilde2} alt="bilde 2" />
-                    <p>Tannlegehøyskolen Garderober</p>
-                </a>
-                <a href="https://25012-tilfluktsrom.vercel.app/">
-                    <img src={bilde3} alt="bilde 3" />
-                    <p>Tannlegehøyskolen Tilfluktsrom</p>
-                </a>
-                <a href="https://ansatte-toaletter.vercel.app/">
-                    <img src={bilde4} alt="bilde 4" />
-                    <p>Tannlegehøyskolen Ansatte-toaletter</p>
-                </a>
+                <div id="slider">
+                    <a href="https://25028.vercel.app/">
+                        <img src={bilde1} alt="bilde 1" />
+                        <p>UiO - BL18</p>
+                    </a>
+                    <a href="https://marzipano-psi.vercel.app/">
+                        <img src={bilde2} alt="bilde 2" />
+                        <p>Tannlegehøyskolen Garderober</p>
+                    </a>
+                    <a href="https://25012-tilfluktsrom.vercel.app/">
+                        <img src={bilde3} alt="bilde 3" />
+                        <p>Tannlegehøyskolen Tilfluktsrom</p>
+                    </a>
+                    <a href="https://ansatte-toaletter.vercel.app/">
+                        <img src={bilde4} alt="bilde 4" />
+                        <p>Tannlegehøyskolen Ansatte-toaletter</p>
+                    </a>
+                </div>
             </div>
         </div>
         </>

@@ -33,7 +33,7 @@
 
 .bilde-rad a {
   display: flex;
-  gap: 0.7rem;
+  gap: 0.1rem;
   flex-direction: column; /* gjør at tekst havner under bildet */
   align-items: center;
 }
@@ -45,11 +45,6 @@
   border-radius: 8px;
 }
 
-.bilde-rad::-webkit-scrollbar {
-  height: 8px;
-}
-
-.bilde-rad::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
+.bilde-rad a p {
+  margin-bottom: 3rem;
 }
