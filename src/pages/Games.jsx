@@ -1,5 +1,5 @@
 import "../css/Games.css"
-import bilde1 from "../images/Games.png";
+import bilde1 from "../images/games.png";
 import { Link } from "react-router-dom";
 
 function Games() {
