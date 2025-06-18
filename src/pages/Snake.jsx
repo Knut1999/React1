@@ -9,5 +9,4 @@ function Games() {
             </div>
     </div>
 }
-
 export default Games
