@@ -1,5 +1,5 @@
 import "../css/Games.css"
-import bilde1 from "../images/Games.png";
+//import bilde1 from "../images/Games.png";
 
 function Games() {
     return <div className="Games">
