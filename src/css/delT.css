@@ -28,13 +28,10 @@
 @media (max-width: 768px) {
   .responsive-iframe {
     left: 50%;
-    transform: translateX(-50%) scale(0.5);
+    transform: translateX(-50%) scale(0.3);
     transform-origin: top center;
-    width: 1400px;
+    width: 1000px;
     height: 1000px;
   }
 }
-
-
-
 
