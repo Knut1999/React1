@@ -32,17 +32,6 @@ function Home() {
 
     return (
         <div className="home">
-            <form onSubmit={handleSearch} className="search-form">
-                <input 
-                type="text" 
-                placeholder="Søk ..." 
-                className="search-input"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                <button type="submit" className="search-button">Search</button>
-            </form>
-
             <div className="prosjekter-grid">
                 {prosjekter.map(
                     (prosjekt) => 

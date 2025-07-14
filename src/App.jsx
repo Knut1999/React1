@@ -8,6 +8,7 @@ import Streetview from './pages/streetview';
 import Snake from './pages/Snake';
 import Work from './pages/Work';
 import DelT from './pages/work_pages/delT';
+import Q from './pages/work_pages/q';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Snake" element={<Snake />}/>
         <Route path="/Work" element={<Work />}/>
         <Route path="/work_pages/delT" element={<DelT />}/>
+        <Route path="/work_pages/q" element={<Q />}/>
       </Routes>
     </main>
     </div>

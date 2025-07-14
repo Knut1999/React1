@@ -6,17 +6,35 @@
 }
 
 .Snake h2 {
-  margin-bottom: 2rem;
+  margin: 0 0 1rem 0;
   text-align: center;
   font-size: 2.5rem;
   color: #d1004d;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.Snake-board {
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 2.5rem;
-  color: #b5a1a87b;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.snake-iframe-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 600px; /* juster etter behov */
+}
+
+.snake-iframe {
+  width: 1000px;
+  height: 800px;
+  transform: scale(0.9);
+  transform-origin: top center;
+  border: none;
+}
+
+
+
+/* Mobil: enda mindre */
+@media (max-width: 768px) {
+  .snake-iframe {
+    transform: scale(0.4);
+    width: 1600px;
+    height: 1000px;
+  }
 }
