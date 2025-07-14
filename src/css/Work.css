@@ -1,0 +1,58 @@
+.Work {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Work h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #d1004d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Work p {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Work-rad {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.Work-rad a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.Work-rad a {
+  display: flex;
+  gap: 0.1rem;
+  flex-direction: column; /* gjør at tekst havner under Workt */
+  align-items: center;
+}
+
+.Work-rad {
+  display: flex;
+  justify-content: center;
+}
+
+
+.Work-rad img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Work-rad a p {
+  margin-bottom: 3rem;
+}
+

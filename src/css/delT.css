@@ -1,0 +1,25 @@
+.delT {
+  background-color: #e6fbff;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.delT-board iframe {
+  border: none;
+}
+
+
+.delT h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.delT-board {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
