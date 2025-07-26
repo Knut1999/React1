@@ -45,7 +45,7 @@
 }
 
 
-img {
+.games-img {
   width: 600px;
   height: 600px;
   object-fit: cover;
@@ -57,7 +57,7 @@ img {
 }
 
 @media (max-width: 600px) {
-img {
+.games-img {
   width: 200px;
   height: 200px;
 }
