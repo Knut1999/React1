@@ -3,7 +3,7 @@ import "../css/Snake.css";
 function Snake() {
   return (
     <div className="Snake">
-      <h2>Oioi nå snaker vi her (funker ikke på mobil)</h2>
+      <h2>Oioi nå snaker vi her</h2>
       <div className="snake-iframe-wrapper">
         <iframe
           className="snake-iframe"

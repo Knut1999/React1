@@ -13,7 +13,7 @@ function Games() {
                 <div id="slider">
                     <Link to="/Snake">
                         <img src={bilde1} alt="bilde 1" className="game-preview"/>
-                        <p>Snake</p>
+                        <p>Snake (funker ikke på mobil)</p>
                     </Link>
                     <a href="https://super-tre-p-rad.vercel.app/">
                         <img src={bilde2} alt="bilde 1" className="game-preview"/>
