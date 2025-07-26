@@ -62,30 +62,11 @@
   margin-bottom: 3rem;
 }
 
-
-@media (max-width: 600px) {
-  .Work {
-    padding: 1rem;
-  }
-
-  .Work h2,
-  .Work p {
-    font-size: 1.5rem;
-  }
-
-  .Work-rad {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-
+@media (max-width: 60px) {
   .Work-rad img {
-    width: 90%;
+    width: 100%;
+    max-width: 90%;
     height: auto;
   }
-
-  .Work-rad a p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
 }
+
