@@ -46,7 +46,7 @@
 
 
 .game-preview {
-  width: 300px;
+  width: 600px;
   height: auto;
   aspect-ratio: 1 / 1; /* kvadratisk */
   object-fit: cover;
