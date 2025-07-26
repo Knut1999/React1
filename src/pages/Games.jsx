@@ -12,11 +12,11 @@ function Games() {
             <div className="games-rad">
                 <div id="slider">
                     <Link to="/Snake">
-                        <img src={bilde1} alt="bilde 1"  />
+                        <img src={bilde1} alt="bilde 1" className="game-preview"/>
                         <p>Snake</p>
                     </Link>
                     <a href="https://super-tre-p-rad.vercel.app/">
-                        <img src={bilde2} alt="bilde 1" />
+                        <img src={bilde2} alt="bilde 1" className="game-preview"/>
                         <p>Super 3 på rad</p>
                     </a>
                 </div>
