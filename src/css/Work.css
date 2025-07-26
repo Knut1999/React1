@@ -63,8 +63,8 @@
 }
 
 .work-preview {
-  width: 200px;
-  height: auto;
+  width: 480px;
+  height: 195px;
   aspect-ratio: 1 / 1; /* kvadratisk */
   object-fit: cover;
   display: block;
