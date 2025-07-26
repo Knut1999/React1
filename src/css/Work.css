@@ -63,10 +63,9 @@
 }
 
 @media (max-width: 60px) {
-  .Work-rad img {
-    width: 100%;
-    max-width: 90%;
-    height: auto;
-  }
+img {
+  width: 60px;
+  height: 60px;
+}
 }
 
