@@ -16,7 +16,7 @@ function Games() {
                         <p>Snake</p>
                     </Link>
                     <a href="https://super-tre-p-rad.vercel.app/">
-                        <img src={bilde2} alt="bilde 2" />
+                        <img src={bilde2} alt="bilde 1" />
                         <p>Super 3 på rad</p>
                     </a>
                 </div>
