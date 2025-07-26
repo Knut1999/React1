@@ -64,11 +64,8 @@
 
 
 @media (max-width: 639px) {
-  .home {
+  .work {
     padding: 1rem 0;
   }
 
-  .search-form {
-    margin-bottom: 1rem;
-  }
 }
