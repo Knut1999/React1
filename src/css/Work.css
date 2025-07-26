@@ -63,8 +63,8 @@
 }
 
 .work-img {
-  width: 320px;
-  height: 130px;
+  width: 640px;
+  height: 260px;
 }
 
 @media (max-width: 600px) {
