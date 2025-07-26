@@ -74,6 +74,10 @@
 .work-preview {
   width: 160px;
   height: 65px;
+  aspect-ratio: 1 / 1; /* kvadratisk */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 }
 
