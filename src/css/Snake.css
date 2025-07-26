@@ -33,7 +33,7 @@
 /* Mobil: enda mindre */
 @media (max-width: 600px) {
   .snake-iframe {
-    transform: scale(0.1);
+    transform: scale(0.4);
     width: 1600px;
     height: 1000px;
   }
