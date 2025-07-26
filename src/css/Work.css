@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 600px) {
-.work-img {
+.work-preview {
   width: 160px;
   height: 65px;
 }
