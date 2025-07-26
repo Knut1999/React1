@@ -17,19 +17,19 @@ function Streetview() {
             <div className="bilde-rad">
                 <div id="slider">
                     <a href="https://25028.vercel.app/">
-                        <img src={bilde1} alt="bilde 1" />
+                        <img src={bilde1} alt="bilde 1" className="streetview-preview"/>
                         <p>UiO - BL18</p>
                     </a>
                     <a href="https://marzipano-psi.vercel.app/">
-                        <img src={bilde2} alt="bilde 2" />
+                        <img src={bilde2} alt="bilde 2" className="streetview-preview"/>
                         <p>Tannlegehøyskolen Garderober</p>
                     </a>
                     <a href="https://25012-tilfluktsrom.vercel.app/">
-                        <img src={bilde3} alt="bilde 3" />
+                        <img src={bilde3} alt="bilde 3" className="streetview-preview"/>
                         <p>Tannlegehøyskolen Tilfluktsrom</p>
                     </a>
                     <a href="https://ansatte-toaletter.vercel.app/">
-                        <img src={bilde4} alt="bilde 4" />
+                        <img src={bilde4} alt="bilde 4" className="streetview-preview"/>
                         <p>Tannlegehøyskolen Ansatte-toaletter</p>
                     </a>
                 </div>
