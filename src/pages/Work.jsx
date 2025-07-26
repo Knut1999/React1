@@ -12,13 +12,13 @@ function Work() {
             <div className="work-rad">
                 <div id="slider">
                     <Link to="/work_pages/delT">
-                        <img src={bilde1} alt="bilde 1" />
+                        <img src={bilde1} alt="bilde 1" className="work-preview"/>
                         <p>Kalkulator for endring i tempratur</p>
                     </Link>
                 </div>
                 <div id="slider">
                     <Link to="/work_pages/q">
-                        <img src={bilde2} alt="bilde 1" />
+                        <img src={bilde2} alt="bilde 1" className="work-preview"/>
                         <p>Kalkulator for finne riktig energibehov Q</p>
                     </Link>
                 </div>
