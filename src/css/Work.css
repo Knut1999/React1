@@ -63,20 +63,12 @@
 }
 
 .work-preview {
-<<<<<<< HEAD
   width: 240px;
   height: 97px;
   aspect-ratio: 1 / 1; /* kvadratisk */
   object-fit: cover;
   display: block;
   margin: 0 auto;
-=======
-  width: 480px;
-  height: 195px;
-  aspect-ratio: 1 / 1; /* kvadratisk */
-  object-fit: cover;
-  display: block;
->>>>>>> ddf2a8cf9dee5d4179f908b4b16a6b860544c4ea
 }
 
 @media (max-width: 600px) {

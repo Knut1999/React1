@@ -12,10 +12,7 @@ function Streetview() {
             
             <p>
             Naviger deg rundt i bygg enkelt<br />
-<<<<<<< HEAD
             Det er benytta et program som heter Marzipano til å lage en view hvor man enkelt kan navigere seg rund i bygg
-=======
->>>>>>> ddf2a8cf9dee5d4179f908b4b16a6b860544c4ea
             </p>
 
             <div className="bilde-rad">
