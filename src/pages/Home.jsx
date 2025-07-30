@@ -39,8 +39,12 @@ function Home() {
                         <Link to={
                             prosjekt.id === 1 ? "/streetview" :
                             prosjekt.id === 2 ? "/Work" :
+<<<<<<< HEAD
                             prosjekt.id === 3 ? "/games" : 
                             prosjekt.id === 4 ? "/Plugins" : "#"
+=======
+                            prosjekt.id === 3 ? "/games" : "#"
+>>>>>>> ddf2a8cf9dee5d4179f908b4b16a6b860544c4ea
                         } key={prosjekt.id}>
                             <ProsjektCard prosjekt={prosjekt} />
                         </Link>  
