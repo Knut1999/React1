@@ -1,0 +1,59 @@
+.streetView {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.streetView h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #412ca1;
+}
+
+.streetView p {
+  color: #999;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.bilde-rad {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.bilde-rad a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+.bilde-rad a {
+  display: flex;
+  gap: 0.1rem;
+  flex-direction: column; /* gjør at tekst havner under bildet */
+  align-items: center;
+}
+
+.bilde-rad img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bilde-rad a p {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+.bilde-rad img {
+  width: 100px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+}

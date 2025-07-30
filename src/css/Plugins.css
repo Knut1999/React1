@@ -1,0 +1,47 @@
+.Plugins {
+  background-color: #ffffff;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Plugins h2 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.Plugins h3 {
+  margin: 0 0 1rem 0;
+  margin-left: 450px;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.Plugins-iframe-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 650px; /* juster etter behov */
+}
+
+.Plugins-iframe {
+  width: 1000px;
+  height: 800px;
+  transform: scale(0.9);
+  transform-origin: top center;
+  border: none;
+}
+
+
+
+/* Mobil: enda mindre */
+@media (max-width: 600px) {
+  .Plugins-iframe {
+    transform: scale(0.4);
+    width: 1600px;
+    height: 1000px;
+  }
+}
