@@ -7,7 +7,7 @@ function About() {
         Knut Onsøyen<br />
         E-post: knut.onso@gmail.com <br />
         Nummer: +47 91 81 86 16 <br />
-
+        Nettside og aplikasjoner er laget uten AI <br />
         </p>
     </div>
 }
